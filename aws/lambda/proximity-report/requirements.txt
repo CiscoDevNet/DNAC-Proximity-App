@@ -1,0 +1,4 @@
+requests
+webexteamssdk
+WeasyPrint
+python-dateutil
