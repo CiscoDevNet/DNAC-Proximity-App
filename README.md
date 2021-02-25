@@ -55,17 +55,17 @@ Upon successfully creating your instance of **Proximity** API Gateway **from tem
 #### Step 2: Setup AWS - Lambda
 Now that we've setup all the endpoints. Each endpoint will receive a webhook event and pass the data to a Lambda function to process it. 
 
-ℹ️ [What is Lambda?](https://aws.amazon.com/lambda/features/)
+ℹ️  [What is Lambda?](https://aws.amazon.com/lambda/features/)
 
 let's build out our lambda functions and attach each to our API Gateway 
 
-ℹ️ [How to deploy a Lambda function](https://docs.aws.amazon.com/codedeploy/latest/userguide/tutorial-lambda-sam.html)
+ℹ️  [How to deploy a Lambda function](https://docs.aws.amazon.com/codedeploy/latest/userguide/tutorial-lambda-sam.html)
 
 ###### 1. Bot `Messages` event Webhook handler:
 
 Have a peek at the `lambda/bot-msgs` code folder, this is your first lambda function. Create it.
 
-This Lambda function :
+This Lambda function:
 
 - Will capture the payload sent to `{{AWS-URI}}/bot` endpoint via Webex `Messages` Webhook.
 - Parse the JSON payload in `bot_msg_handler()` python function. 
@@ -81,7 +81,7 @@ Once deployed, link `/bot` `POST` Method to Lambda function `bot-msgs` in API Ga
 ###### 2. Adaptive Cards `AttachmentActions` event Webhook handler:
 
 The second webhook we need to handle is when user "Submits" the Form posted by our bot. 
-This data needs to be passed to another Lambda function and parsed. have a peek at `/lambda/form-submit' code folder. Create it similarly to the step above.
+This data needs to be passed to another Lambda function and parsed. have a peek at `/lambda/form-submit` code folder. Create it similarly to the step above.
 
 This Lambda function:
 
