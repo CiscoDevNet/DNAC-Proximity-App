@@ -9,7 +9,7 @@ We will leverage the new Cisco DNA Center Proximity API and Notification APIs wi
 ## Application Architecture overview
 Below is the overall architecture we will be putting together.
 
-![app](imgs/architecture.png)
+![app](imgs/arch.png)
 
 
 ## Requirements
