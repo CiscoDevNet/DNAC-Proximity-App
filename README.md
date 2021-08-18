@@ -4,7 +4,7 @@ As companies work to ensure the safety of their workforce returning to the physi
 
 We will leverage the new Cisco DNA Center Proximity API and Notification APIs with ChatOps to allow teams within a company to trace a pandemic positive employee, generate contact tracing report and respond quickly to keep their employees safe.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KY6beOWgIV4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<a class="youtube-video" href="https://www.youtube.com/watch?v=KY6beOWgIV4" target="_blank" itemprop="youtube-video"><img width="100%" src="https://img.youtube.com/vi/KY6beOWgIV4/0.jpg"></a>
 
 ## Application Architecture overview
 Below is the overall architecture we will be putting together.
